@@ -11,8 +11,9 @@
   <param name="sinrmax" value="20.0"/>
 
   <!-- dlep service config -->
+  <param name="protocolconfigfile"    value="/etc/dlep/dlep-draft-24.xml"/>
   <param name="acktimeout"            value="3"/>
-  <param name="ackprobability"         value="100"/>
+  <param name="ackprobability"        value="100"/>
   <param name="configfile"            value=""/>
   <param name="discoveryiface"        value="eth0"/>
   <param name="discoveryinterval"     value="5"/>
