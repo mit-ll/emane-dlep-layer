@@ -104,7 +104,7 @@ void EMANE::R2RI::DLEP::ShimLayer::initialize(Registrar & registrar)
     configRegistrar.registerNonNumeric<std::string>("etheraddroui",
                                                     ConfigurationProperties::NONE,
                                                     {},
-                                                    "Defines an ethernet MAC address preix to be used along with the NEMId"
+                                                    "Defines an ethernet MAC address prefix to be used along with the NEMId"
                                                     "to construct the full ethernet MAC address",
                                                     0,
                                                     255,
